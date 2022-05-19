@@ -1,0 +1,24 @@
+/*Aplica un estilo HASTA UN ANCHO DE PANTALLA de 320px */
+
+@media screen and (max-width: 320px) {
+  h1{
+    font-size: 13px;
+  }
+}
+
+/*Aplica un estilo A PARTIR de  320px en ADELANTE */
+
+@media screen and (min-width: 320px) {
+  h1{
+    font-size: 13px;
+  }
+}
+
+
+/*Aplica un estilo SOLO EN EL  RANGO DE 325PX Y 425PX */
+
+@media only screen and (min-width: 325px) and (max-width: 425px) {
+  .h1 {
+    font-size: 18px;
+  }
+}
